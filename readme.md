@@ -2,8 +2,6 @@
 
 App Service on Linux provides a highly scalable, self-patching web hosting service using the Linux operating system. This lab shows how to create a [.NET Core](https://docs.microsoft.com/aspnet/core/) app on App Service on Linux using [Visual Studio Code](http://code.visualstudio.com). You create the web app using the [Azure CLI](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli), and you use Git to deploy the .NET Core code to the web app.
 
-![Sample app running in Azure](media/dotnet-browse-azure.png)
-
 ## Create the app locally
 
 In a terminal window on your machine, create a directory named `hellodotnetcore` and change the current directory to it.
