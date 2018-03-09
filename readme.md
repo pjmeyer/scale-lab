@@ -171,9 +171,7 @@ You’ve created an empty web app in a Linux container, with git deployment enab
 > The URL of the Git remote is shown in the `deploymentLocalGitUrl` property, with the format `https://<username>@<app_name>.scm.azurewebsites.net/<app_name>.git`. Save this URL as you need it later.
 >
 
-Expand the **Azure App Service** explorer window in Visual Studio Code and you'll see the web app you just created. Right-click the web app and select **Browse Website** and the site will open in your browser. 
-
-![Browse from VS Code](media/browse-site.png)
+Expand the **Azure App Service** explorer window in Visual Studio Code and you'll see the web app you just created. Open it up in your browser:
 
 ```bash
 http://<app name>.azurewebsites.net
@@ -186,6 +184,8 @@ Here is what your new web app should look like:
 ## Push to Azure from Git
 
 Back in the _local terminal window_, add an Azure remote to your local Git repository. Replace _&lt;paste\_copied\_url\_here>_ with the URL of the Git remote that you saved from *Create a web app*.
+
+>Run this command in your ***local terminal***, not in the VS Code integrated terminal.
 
 ```bash
 git remote add azure <deploymentLocalGitUrl-from-create-step>
@@ -229,19 +229,3 @@ This time, use the source control features within Visual Studio Code to commit y
 Once deployment has completed, switch back to the browser window that opened in the **Browse to the app** step, and hit refresh.
 
 ![Updated sample app running in Azure](media/dotnet-browse-azure-updated.png)
-
-## Manage your new Azure web app
-
-Right-click the web app you just created and select the **Open in Portal** option. 
-
-![Open in portal](media/open-in-portal.png)
-
-From the left menu, click **App Services**, and then click the name of your Azure web app.
-
-![Portal navigation to Azure web app](./media/portal-app-service-list.png)
-
-You see your web app's Overview page. Here, you can perform basic management tasks like browse, stop, start, restart, and delete. 
-
-![App Service page in Azure portal](media/portal-app-overview.png)
-
-The left menu provides different pages for configuring your app. 
