@@ -90,7 +90,7 @@ You create this deployment user only once; you can use it for all your Azure dep
 
 A *resource group* is a logical container into which Azure resources like web apps, databases, and storage accounts are deployed and managed.
 
-In the Cloud Shell, create a resource group with the [`az group create`](/cli/azure/group?view=azure-cli-latest#az_group_create) command. The following example creates a resource group named *myResourceGroup* in the *West Europe* location. To see all supported locations for App Service, run the [`az appservice list-locations`](/cli/azure/appservice?view=azure-cli-latest#az_appservice_list_locations) command.
+In the Cloud Shell, create a resource group with the [`az group create`](/cli/azure/group?view=azure-cli-latest#az_group_create) command. The following example creates a resource group named *myResourceGroup* in the *West US* location. To see all supported locations for App Service, run the [`az appservice list-locations`](/cli/azure/appservice?view=azure-cli-latest#az_appservice_list_locations) command.
 
 ```azurecli-interactive
 az group create --name myResourceGroup --location "West US"
