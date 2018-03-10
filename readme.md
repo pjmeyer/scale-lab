@@ -52,7 +52,7 @@ Visual Studio Code will open and you'll be able to see all of the source code cr
 
 ![Visual Studio Code](media/empty-vscode.png)
 
-Press the `F1` key to open the Visual Studio Code command palette. Then type the string `Azure: Sign` to see the sign-in command. 
+Press the `Ctrl + Shift + P` to open the Visual Studio Code command palette. Then type the string `Azure: Sign` to see the sign-in command. 
 
 ![Sign in to Azure](media/azure-signin.png)
 
@@ -66,7 +66,7 @@ Provide the email address and password provided to you by the lab proctor. Once 
 
 ## Launch Azure Cloud Shell
 
-The Azure Cloud Shell is a free interactive shell that you can use to run the steps in this article. It has common Azure tools preinstalled and configured to use with your account. Just click the **Copy** button to copy the code, paste it into the Cloud Shell, and then press enter to run it. Visual Studio Code offers an easy way to get to the Cloud Shell. Simply hit the `F1` key to open up the command palette in VS Code and type the word `Cloud`, then select the Bash option. 
+The Azure Cloud Shell is a free interactive shell that you can use to run the steps in this article. It has common Azure tools preinstalled and configured to use with your account. Just click the **Copy** button to copy the code, paste it into the Cloud Shell, and then press enter to run it. Visual Studio Code offers an easy way to get to the Cloud Shell. Hit `Ctrl + Shift + P` to open up the command palette in VS Code and type the word `Cloud`, then select the Bash option. 
 
 ![Cloud Shell in VS Code](media/cloud-shell.png)
 
